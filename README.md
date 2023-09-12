@@ -74,9 +74,10 @@ O objetivo desse projeto é criar um conjunto de gráficos e/ou tabelas que exib
 
 # 3. Estratégia da solução
   O painel estratégico foi desenvolvido utilizando as métricas que refletem as principais visões do modelo de negócio da empresa:
+    
     1. Visão por País;
-    2. Visão por Cidades
-    3. Visão por Restaurantes e Culinárias
+    2. Visão por Cidades:
+    3. Visão por Restaurantes e Culinárias;
 
   Dispomos na página inicial as informações gerais com opção de seleção de Filtro por país com as informações gerais do Marketplace, além de uma mapa interativo, em que é possível identificar a localização de cada       
   restaurante com rank de cores e suas principais características (Valor prato para dois, Tipo de Culinária e Nota Média de avaliação)
