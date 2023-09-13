@@ -214,7 +214,7 @@ def top_cities_down(country):
         , text='aggregate_rating', color='country_name', template='plotly_white' )
     
     fig.update_layout(title_text='Top 7 Cidades com Restaurantes com média de avaliação abaixo de 2.5', 
-                      title_x=0.1)        
+                      title_x=0.0)        
     fig.update_traces(marker_line_color = 'rgb(8,48,107)', marker_line_width = 1.5 )
             
     return fig
@@ -239,7 +239,7 @@ def top_cities(country):
     }, template='plotly_white' )
     
     fig.update_layout(title_text='Top 7 Cidades com Restaurantes com média de avaliação acima de 4', 
-                      title_x=0.1)
+                      title_x=0.0)
     fig.update_traces(marker_line_color = 'rgb(8,48,107)', marker_line_width = 1.5)
     
     return fig
